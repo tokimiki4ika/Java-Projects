@@ -18,7 +18,7 @@ public class App {
         for(int X = 0; X < n; X++) {
             for(int Y = 0; Y < n; Y++) {
                 System.out.print(massInt2[X][Y]);
-                if (!(Y + 1 == n)) {System.out.print(" ");}
+                if (!(Y + 1 == n)) {System.out.print("\t");}
             }
             if (!(X + 1 == n)) {System.out.print("\n");}
         }
